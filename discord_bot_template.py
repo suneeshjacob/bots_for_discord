@@ -1,7 +1,5 @@
-import discord
 from discord.ext import commands
 secretkey='yourkey'
-Client=discord.Client
 bot_prefix=''
 client=commands.Bot(command_prefix=bot_prefix)
 
