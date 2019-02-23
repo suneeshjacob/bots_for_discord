@@ -4,16 +4,10 @@ def my_function(x):
     elif x in ["Hello","Hi"]:
         return 'Hi there, how are you?'
     elif x in ["God\'s not real.","God is fake."]:
-        return 'no u'
-    elif x in ["I guess."]:
-        return 'I know, you son of a cow train.'
-    elif x in ["If I'm not wrong"]:
-        return 'You are wrong!'
+        return 'False.'
     elif x in ["Em"]:
-        return 'Bow before your queen'
+        return 'Respect your queen'
     elif x in ["God bless you."]:
         return 'God bless you too!'
-    elif x in ["imaginary sky daddy","jfc","brainwashed"]:
-        return 'let\'s tip the fedora a little bit more comrades'
     else:
         return ''
