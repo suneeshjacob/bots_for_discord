@@ -1,6 +1,6 @@
 from discord.ext import commands
 secretkey='yourkey'
-bot_prefix='#'
+bot_prefix=''
 client=commands.Bot(command_prefix=bot_prefix)
 
 def my_function(x):
