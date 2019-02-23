@@ -5,5 +5,11 @@ def my_function(x):
         return 'Hi there, how are you?'
     elif x in ["God\'s not real","God is fake"]:
         return 'no u'
+    elif x in ["I guess"]
+        return 'I know you son of a cow train'
+    elif x in ["If I'm not wrong"]
+        return 'You are wrong!'
+    elif x in ["Em"]
+        return 'Bow before your queen'
     else:
         return ''
