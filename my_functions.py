@@ -13,6 +13,7 @@ def my_function(x):
         return 'Bow before your queen'
     elif x in ["God bless you."]:
         return 'God bless you too!'
-    elif x in ["imaginary sky daddy","jfc","brainwashed"
+    elif x in ["imaginary sky daddy","jfc","brainwashed"]:
+        return 'let\'s tip the fedora a little bit more comrades'
     else:
         return ''
