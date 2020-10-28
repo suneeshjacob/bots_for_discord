@@ -1,7 +1,9 @@
 from discord.ext import commands
+from discord import Intents
 secretkey='yourkey'
 bot_prefix=''
-client=commands.Bot(command_prefix=bot_prefix)
+intents = Intents.all()
+client=commands.Bot(command_prefix=bot_prefix, intents=intents)
 
 from my_functions import my_function
 
